@@ -9,7 +9,7 @@ This API allows consumers to retrieve information about GitHub repositories base
 The API endpoint for retrieving the list of GitHub repositories is:
 
 ```http request
-GET /api/repositories/{username}
+GET /user/{username}/repos
 ```
 
 Replace {username} with the GitHub username for which you want to retrieve the repositories.
