@@ -71,7 +71,16 @@ Example response when using an unsupported content type:
 }
 ```
 
-## Installation
+## Development
+
+### Prerequisites
+
+To set up the development environment, make sure you have the following:
+
+* Java Development Kit 17.0.2
+* Apache Maven 3.9.1
+
+### Installation
 
 1. Clone the repository:
     ```
@@ -92,6 +101,7 @@ Example response when using an unsupported content type:
 ```
 java -jar target/GitHub-Repository-API.jar
 ```
+The API server will be running at http://localhost:8080
    
 ## License
 
